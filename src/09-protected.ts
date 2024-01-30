@@ -1,4 +1,4 @@
-export abstract class Animal{
+export abstract class Animal{ // de esta manera podemos hacer que se use la class solamnete dependiedo de su class hija.
   constructor(protected name: string) {}
 
   move() {
