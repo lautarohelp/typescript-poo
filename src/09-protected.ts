@@ -37,9 +37,9 @@ export class Dog extends Animal {
   }
 };
 
-const leon = new Animal('Leon');
-leon.move();
-console.log(leon.greeting());
+// const leon = new Animal('Leon');
+// leon.move();
+// console.log(leon.greeting());
 
 const cheis = new Dog('cheis', 'lauti');
 // cheis.name = 'hola';
